@@ -1,0 +1,8 @@
+selenium>=4.22
+webdriver-manager>=4.0
+python-dotenv>=1.0
+typer[all]>=0.12
+rich>=13.7
+pytest>=8.2
+ruff>=0.6
+black>=24.8

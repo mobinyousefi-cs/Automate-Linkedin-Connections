@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linkedin-connections-automator"
+version = "0.1.0"
+description = "Educational Selenium CLI to practice automation patterns for LinkedIn connection flows (dry-run by default)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Mobin Yousefi", email = "you@example.com"}]
+keywords = ["selenium", "automation", "linkedin", "cli", "education"]
+
+[project.urls]
+Homepage = "https://github.com/mobinyousefi-cs/linkedin-connections-automator"
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+skip-string-normalization = true
